@@ -17,7 +17,7 @@ This is a small game heavily inspired by Minesweeper, created in approximately 1
 
 ## Project notes
 
-* If something isn't explained here, it's very likely explained with code comments in the project, property/variable naming or tooltips on properties.
+* If something isn't explained here, it's very likely explained with code comments in the project, property/variable naming or tooltips on properties - everything about the project I thought requires some additional explainations is explained in one or more of these ways.
 * Project extensively uses **Dependency Injection** framework **Extenject**, some interesting Extenject features and power it can give are also showcased in the project.
 * Model and view are strictly separated - model can work headless or use different views and controllers, which makes automated testing (which was out of scope of this project) trivial, especially given there's already AutoPlayer which after some small additions could be used for this purpose.
 * Project uses **DOTween** for all animations. Many of them are customizable via properties on MonoBehaviours.
