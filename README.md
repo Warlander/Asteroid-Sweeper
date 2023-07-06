@@ -29,3 +29,4 @@ This is a small game heavily inspired by Minesweeper, created in approximately 1
 * I was considering both UI-only and UI/2D game scene setup, the project of this scope could be done faster with UI-only approach but I decided to use mixed approach instead so there's showcase of both being used at the same time, as well as use of more Unity features overall. However, main menu animation is fully UI-based.
 * Auto-move and auto-play never cheats, they will only use info available to the player and will NEVER make any move which is a guess - this includes first and often last few moves. If no move can be performed, both buttons will respond with visual feedback.
 * Restart option restarts the current board, for both predefined and randomly generated maps.
+* Random levels are customizable via main menu random level buttons, RandomLevelButton.
